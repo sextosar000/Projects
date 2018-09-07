@@ -3,7 +3,7 @@ body{
 }
 article, footer{
 	position: relative;
-    width: 50%;
+    width: 75em;
     background-color: rgb(21, 22, 24);
     margin: auto;
     border-radius: 15px;
@@ -24,7 +24,6 @@ section{
     position: absolute;
 	top: 40px;
 	right: 10px;
-    
 }
 h1{
     color: #FAFAFA;
@@ -44,4 +43,9 @@ h2{
 p{
     color: #FAFAFA;
     font-family: 'Oswald', sans-serif;
+}
+#quickbio{
+    width: 10%;
+    position: absolute;
+    top: 200px;
 }
