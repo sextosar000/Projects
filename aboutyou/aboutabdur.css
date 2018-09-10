@@ -3,7 +3,7 @@ body{
 }
 article, footer{
 	position: relative;
-    width: 75em;
+    width: 75%;
     background-color: rgb(21, 22, 24);
     margin: auto;
     border-radius: 15px;
@@ -15,6 +15,24 @@ section{
     background-color: rgba(92, 148, 110, .5);
     overflow: auto;
 }
+#hobbies{
+	width: 25%;
+    position: relative;
+	top: 200px;
+	left: 70px;
+}  
+#tunes{
+	width: 25%;
+    position: relative;
+	top: 85px;
+	left: 305px;
+}
+#games{
+	width: 25%;
+    position: relative;
+	top: -30px;
+	left: 474px;
+}
 #honeycomb{
     float: left;
     overflow: auto;
@@ -24,6 +42,13 @@ section{
     position: absolute;
 	top: 40px;
 	right: 10px;
+}
+#quickbio{
+    width: 15%;
+    position: absolute;
+    top: 200px;
+	left: 10px;
+	overflow: auto;
 }
 h1{
     color: #FAFAFA;
@@ -43,9 +68,4 @@ h2{
 p{
     color: #FAFAFA;
     font-family: 'Oswald', sans-serif;
-}
-#quickbio{
-    width: 10%;
-    position: absolute;
-    top: 200px;
 }
