@@ -19,19 +19,19 @@ section{
 	width: 25%;
     position: relative;
 	top: 200px;
-	left: 70px;
+	left: 10%;
 }  
 #tunes{
 	width: 25%;
     position: relative;
 	top: 85px;
-	left: 305px;
+	left: 45%;
 }
 #games{
 	width: 25%;
     position: relative;
 	top: -30px;
-	left: 474px;
+	left: 70.45%;
 }
 #honeycomb{
     float: left;
@@ -56,16 +56,27 @@ h1{
     position: absolute;
     top: 0;
     right: 40px;
+    text-shadow: 2px 2px .07em #7cc995;
     text-decoration: underline;
-    text-decoration-color: #3B6544;
+    text-decoration-color: #3B6544;  
 }
 h2{
     color: #FAFAFA;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 2px 2px .05em rgb(21, 22, 24);
     text-decoration: underline;
     text-decoration-color: #3B6544;
+}
+a{
+    text-decoration: none;
+    color: rgb(212, 212, 212)
 }
 p{
     color: #FAFAFA;
     font-family: 'Oswald', sans-serif;
+}
+#disc{
+    text-align: right;
+    font-size: .8em;
+    padding: 2px;
 }
