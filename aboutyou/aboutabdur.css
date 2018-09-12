@@ -16,26 +16,30 @@ section{
     overflow: auto;
 }
 #hobbies{
-	width: 25%;
+    width: 25%;
+    height: 15em;
     position: relative;
 	top: 200px;
 	left: 10%;
 }  
 #tunes{
-	width: 25%;
+    width: 25%;
+    height: 15em;
     position: relative;
 	top: 85px;
 	left: 45%;
 }
 #games{
-	width: 25%;
+    width: 25%;
+    height: 15em;
     position: relative;
 	top: -30px;
 	left: 70.45%;
 }
 #honeycomb{
     float: left;
-    overflow: auto;
+    background: none;
+    border: none;
 }
 #intro{
     width: 20%;
@@ -45,10 +49,11 @@ section{
 }
 #quickbio{
     width: 15%;
+    height: 15em;
     position: absolute;
     top: 200px;
 	left: 10px;
-	overflow: auto;
+    overflow: auto;
 }
 h1{
     color: #FAFAFA;
@@ -68,6 +73,7 @@ h2{
     text-decoration: underline;
     text-decoration-color: #3B6544;
     letter-spacing: .2em;
+    text-align: left;
 }
 a{
     text-decoration: none;
@@ -81,10 +87,11 @@ p{
 li{
     color: #FAFAFA;
     font-family: 'Oswald', sans-serif;
-    text-decoration: none;
+    list-style-type: none;
 }
 #disc{
     text-align: right;
     font-size: .8em;
     padding: 2px;
+    padding-right: 10px;
 }
