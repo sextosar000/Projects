@@ -1,9 +1,10 @@
+/*structure*/
 body{
     background: linear-gradient(to bottom right,#7CC995,#3B6544,#10231A) fixed;
 }
 article, footer{
 	position: relative;
-    width: 75%;
+    width: 975px;
     background-color: rgb(21, 22, 24);
     margin: auto;
     border-radius: 15px;
@@ -15,62 +16,86 @@ section{
     background-color: rgba(92, 148, 110, .5);
     overflow: auto;
 }
-
 #hobbies{
-    width: 25%;
+    width: 20%;
     height: 15em;
     position: relative;
-	top: 200px;
-	left: 10%;
+    top: 400px;
+    left: 330px;
 }  
 #tunes{
-    width: 25%;
+    width: 20%;
     height: 15em;
     position: relative;
-	top: 85px;
-	left: 45%;
+    top: 158px;
+    left: 540px;
 }
 #games{
-    width: 25%;
+    width: 20%;
     height: 15em;
     position: relative;
-	top: -30px;
-	left: 70.45%;
-}
-#honeycomb{
-    float: left;
-    background: none;
-    border: none;
+    top: -84px;
+    left: 750px;
 }
 #intro{
-    width: 20%;
+    width: 42%;
     position: absolute;
-	top: 40px;
-	right: 10px;
+	top: 100px;
+	right: 20px;
 }
 #quickbio{
-    width: 15%;
+    width: 20%;
     height: 15em;
     position: absolute;
-    top: 200px;
+    top: 400px;
 	left: 10px;
     overflow: auto;
 }
 #insta{
     background-image: url("instagram.png");
     background-repeat: no-repeat;
-    width: 180px;
-    height: 207px;
+    border-radius: 45px;
+    width: 117px;
+    height: 140px;
+    position: absolute;    
+    left: 350px;
+    top: 15px;
+    font-size: 1.5em;
     text-align: center;
-    padding-top: 85px;
-    font-size: 2em;
 }
+/*images*/
+#honeycomb{
+    float: left;
+    background: none;
+    border: none;
+}
+#big{
+    position: absolute;
+    top: 115px;
+    left: 20px;
+}
+#med{
+    position: absolute;
+    left: 150px;
+    padding: 10px;
+}
+#small{
+    position: absolute;
+    left: 230px;
+    top: 120px;
+}
+#dragon{
+    background: none;
+    border: none;
+    text-align: center;
+}
+/*text*/
 h1{
     color: #FAFAFA;
     font-family: 'Open Sans', sans-serif;
     position: absolute;
-    top: 0;
-    right: 40px;
+    top: 1.7em;
+    right: 30px;
     text-shadow: 2px 2px .07em #7cc995;
     text-decoration: underline;
     text-decoration-color: #3B6544;  
