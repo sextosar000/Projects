@@ -21,14 +21,29 @@ nav{
 }
 #p1{
     display: inline;
+    float: left;
+    position: relative;
+    left: 75px;
 }
 #p2{
     display: inline;
+    float: right;
+    position: relative;
+    right: 50px;
 }
-#disc
+header{
+    height: 350px;
+    width: 100%;
+}
+section{
+    height: 400px;
+    width: 75%;
+    margin: auto;
+}
 /*content*/
 h1{
     font-family: 'Fredericka the Great', cursive;
+    display: inline;
 }
 p{
     font-family: 'Amatic SC', cursive;
@@ -36,7 +51,21 @@ p{
     display: inline;
 }
 img{
-    display: inline;
+    float: left;
+    padding-right: 20px;
+}
+#headerimg{
+    float: none;
+    padding: none;
+    margin: auto;
+    display: block;
+}
+footer{
+    font-family: 'Dosis', sans-serif;
+}
+a{
+    color: white;
+    text-shadow: 3px black;
 }
 /*page one*/
 
