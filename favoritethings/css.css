@@ -8,6 +8,8 @@ body{
     background-color: #51513D;
     width: 80%;
     margin: auto;
+    border-style: solid;
+    border-color: rgb(44, 44, 35);
 }
 nav{
     background-color: #96be8c;
@@ -18,6 +20,9 @@ nav{
     height: 40px;
     position: sticky;
     top: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:  rgb(44, 44, 35);
 }
 #p1{
     display: inline;
@@ -44,15 +49,19 @@ section{
 h1{
     font-family: 'Fredericka the Great', cursive;
     display: inline;
+    text-shadow: 2px 1px #96be8c;
+    padding-left: 15px;
 }
 p{
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
     display: inline;
+    padding-left: 15px;
 }
 img{
     float: left;
-    padding-right: 20px;
+    border-style: dotted;
+    border-color: rgb(44, 44, 35);
 }
 #headerimg{
     float: none;
@@ -62,10 +71,29 @@ img{
 }
 footer{
     font-family: 'Dosis', sans-serif;
+    background-color: #51513D;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(44, 44, 35);
+}
+#footer{
+    display:none;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+}
+footer:hover #footer{
+    display: block;
 }
 a{
     color: white;
-    text-shadow: 3px black;
+    text-shadow: 3px 1px black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 /*page one*/
 
