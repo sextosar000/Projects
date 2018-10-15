@@ -37,13 +37,16 @@ nav{
     right: 50px;
 }
 header{
-    height: 350px;
+    height: 200px;
     width: 100%;
 }
 section{
     height: 400px;
     width: 75%;
     margin: auto;
+}
+#one{
+    padding-top: 20px;
 }
 /*content*/
 h1{
@@ -52,22 +55,27 @@ h1{
     text-shadow: 2px 1px #96be8c;
     padding-left: 15px;
 }
-p{
+p, li{
     font-family: 'Amatic SC', cursive;
     font-size: 1.5em;
     display: inline;
     padding-left: 15px;
 }
+li{
+    display: block;
+}
 img{
     float: left;
     border-style: dotted;
     border-color: rgb(44, 44, 35);
+    margin-right: 15px;
 }
 #headerimg{
     float: none;
-    padding: none;
-    margin: auto;
+    padding-top: 23px;
     display: block;
+    margin: auto;
+    border-style: none;
 }
 footer{
     font-family: 'Dosis', sans-serif;
@@ -96,5 +104,20 @@ a:hover{
     text-decoration-color: white;
 }
 /*page one*/
-
+#rpex a{
+    color: black;
+    text-shadow: none;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.25em;
+}
+table{
+    margin: auto;
+    padding-bottom: 10px;
+}
+table a{
+    text-decoration: none;
+}
+table img{
+    border: none;
+}
 /*page two*/
